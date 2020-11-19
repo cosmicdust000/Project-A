@@ -9,7 +9,77 @@
     <title>Add Page</title>
 </head>
 <body>
-    
+    <div class="head">
+		<tr>
+			<th><a class="logo"
+			href="../../mainpage/html/mainpage.html">Logo</a></th>
+			<th><a href="../../mainpage/html/mainpage.html">Home</a></th>
+		</tr>
+    </div>
+	
+	<div class="addevent">
+	<a href="../../mainpage/html/mainpage.html"><img src="../img/left.png"></img></a>
+	<p>Add Event</p>
+	</div>
+	
+	<div class="main">
+	
+		<div class="information">
+			<form name="formForValues">
+				<label type="text"><b>Event name</b></label>
+				<br>
+
+				<input type="text"
+				name="eventname"
+				maxlength="5"
+				required/>
+				<br>
+
+				<label type="text"><b>Adress</b></label>
+				<br>
+
+				<input type="text"
+				name="adress"
+				maxlength="7"
+				required/>
+				<br>
+
+				<label type="text"><b>Date</b></label>
+				<br>
+
+				<input type="text"
+				name="date"
+				maxlength="10"
+				required/>
+				<br>
+
+				<input type="submit"
+				 value="Add"></input>
+
+			</form>
+		</div>
+		
+		<div class="preview">
+			<b>Preview</b>
+			<br>
+			<div class="card">
+			<b>PICTURE</b>
+
+				<div class="information-preview">
+					<p class="eventname"></p>
+
+					<div>
+						<p class="location"></p>
+						<p class="date"></p>
+					</div>
+			
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	
     <script src="../js/main.js"></script>
 </body>
 </html>

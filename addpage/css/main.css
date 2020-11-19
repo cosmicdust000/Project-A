@@ -1,0 +1,136 @@
+html {
+	font-family: Roboto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo + a {
+	color: black;
+}
+
+.head {
+	background: rgba(196, 196, 196, 1);
+	margin: 25px 41px 0 61px;
+	padding: 7px 0 8px 15px;
+}
+
+.head > a {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.logo {
+	font-style: italic;
+	font-weight: 900;
+	font-size: 24px;
+	color: rgba(216, 3, 79, 1);
+}
+
+.head > a {
+	margin-right: 47px;
+}
+
+.addevent {
+	display: flex;
+	margin-top: 19px;
+}
+
+.addevent > p {
+	font-weight: 900;
+	font-size: 36px;
+}
+
+.addevent > a > img {
+	width: 40px;
+	height: 40px;
+	margin-left: 76px;
+	margin-right: 11px;
+}
+
+.main {
+	display: flex;
+}
+
+.information {
+	margin: 43px 50em 0 129px;
+}
+
+form > label {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+form > input {
+	width: 314px;
+	height: 29px;
+	border: none;
+	background-color: #C4C4C4;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+form > input[type="submit"] {
+	font-weight: 900;
+	font-size: 36px;
+	border: none;
+	background-color: #C4C4C4;
+	margin-top: 22px;
+	height: 41px;
+	width: 183px;
+}
+
+.preview > b {
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.card {
+	background-color: #C4C4C4;
+	height: 212px;
+	width: 177px;
+}
+
+.information-preview {
+	height: 76px;
+	width: 177px;
+	background-color: #DD005D;
+	position: absolute;
+	margin-top: 136px;
+}
+
+.information-preview > div {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 18px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card > b {
+	font-weight: 900;
+	font-size: 24px;
+	position: absolute;
+	margin: 54px 25px 54px 35px;
+}
+
+.eventname {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: 900;
+	color: white;
+	font-size: 36px;
+}
+
+.location {
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.date {
+	color: black;
+	font-weight: 900;
+	font-size: 18px;
+}

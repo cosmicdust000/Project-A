@@ -67,18 +67,20 @@ a {
 	font-weight: 900;
 	color: white;
 	font-size: 36px;
-	margin-top: 22px;
+}
+.information > div > p {
+	font-weight: 900;
+	color: white;
+	font-size: 36px;
 }
 
-.information > .location {
+.information > div > .location {
 	color: white;
 	font-size: 18px;
 	font-weight: 700;
-	float: left;
-	margin-right: 29px;
 }
 
-.information > .date {
+.information > div > .date {
 	color: black;
 	font-size: 18px;
 }
@@ -97,4 +99,10 @@ a {
 
 .addmore > a {
 	color: black;
+}
+
+.information > div {
+	margin-top: 22px;
+	display: flex;
+	justify-content: space-between;
 }
